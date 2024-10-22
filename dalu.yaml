@@ -1,0 +1,22 @@
+proxies:
+  - name: "广州"
+    type: socks5
+    server: 14.22.23.113
+    port: 1048
+    username: 387541FDXI2QL5
+    password: 57259852
+
+  - name: "佛山"
+    type: socks5
+    server: 125.94.145.229
+    port: 8347
+    username: 74222FF3XI2SVZ  
+    password: 37419408
+
+  - name: "深圳"
+    type: socks5
+    server: 14.29.187.243
+    port: 6868
+    username: 80CBEA78XI2SGZ  
+    password: 72114096
+
