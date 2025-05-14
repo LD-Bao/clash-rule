@@ -1,11 +1,13 @@
 # OKEX 欧易
-DOMAIN-SUFFIX,okx.com
-DOMAIN-KEYWORD,okx
-DOMAIN-SUFFIX,okex.com
-DOMAIN-KEYWORD,okex
-DOMAIN,okx.com
+# DOMAIN-SUFFIX,okx.com
+# DOMAIN-KEYWORD,okx
+# DOMAIN-SUFFIX,okex.com
+# DOMAIN-KEYWORD,okex
+# DOMAIN,okx.com
 DOMAIN-KEYWORD,lishuidong
 DOMAIN-SUFFIX,lishuidong.top
 DOMAIN-KEYWORD,lsdong
 DOMAIN-SUFFIX,lsdong.cn
 DOMAIN-SUFFIX,lsdong.cc
+DOMAIN-KEYWORD,feiniu
+DOMAIN-SUFFIX,feiniu.lishuidong.top
