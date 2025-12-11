@@ -1,0 +1,24 @@
+# Google AI Gemini 规则 - 基于 ACL4SSR 风格
+# 参考：https://gemini.google.com
+# ACL4SSR 标志
+DOMAIN-SUFFIX,acl4.ssr
+
+# Gemini 主域名
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN,gemini.google.com
+
+# Google AI 相关子域名（API、静态资源等）
+DOMAIN-SUFFIX,ai.google.dev
+DOMAIN-SUFFIX,generativelanguage.googleapis.com  # Gemini API 端点
+DOMAIN-SUFFIX,generativeai.googleapis.com
+DOMAIN,firebaseai.google.com
+
+# Google 通用 AI 资源（扩展自 GoogleIP.list）
+DOMAIN-SUFFIX,googleusercontent.com  # 用于 Gemini 图像/模型资源
+DOMAIN-SUFFIX,gstatic.com  # Google 静态内容，可能包含 AI 资产
+
+# IP 规则（可选，针对 Google AI IP 段；需结合 GoogleIP.list）
+# IP-CIDR6,2607:f8b0:4000::/36,no-resolve  # 示例 Google IPv6
+
+# 结束标志
+# End of Gemini Rules
