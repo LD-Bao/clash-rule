@@ -6,42 +6,54 @@
 # DOMAIN-KEYWORD: 3
 # DOMAIN-SUFFIX: 7
 # TOTAL: 13
+# DOMAIN,ai.google.dev
+# DOMAIN,alkalimakersuite-pa.clients6.google.com
+# DOMAIN,makersuite.google.com
+# DOMAIN-SUFFIX,bard.google.com
+# DOMAIN-SUFFIX,deepmind.com
+# DOMAIN-SUFFIX,deepmind.google
+# DOMAIN-SUFFIX,gemini.google.com
+# DOMAIN-SUFFIX,generativeai.google
+# DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+# DOMAIN-SUFFIX,apis.google.com
+# DOMAIN-KEYWORD,colab
+# DOMAIN-KEYWORD,developerprofiles
+# DOMAIN-KEYWORD,generativelanguage
+# DOMAIN-SUFFIX,one.google.com
+
+# NAME: Google AI Gemini（完美版）
+# UPDATED: 2025-12-11
+# TOTAL: 21
+# 说明：专为 Gemini / Gemini Advanced / Google AI Studio / API 设计，所有流量强制走 🤖Gemini 节点
+
+# 最精确路径优先：Gemini Advanced 付费升级页
+URL-REGEX,https?://one\.google\.com/explore-plan/gemini-advanced
+
+# 核心精确域名
+DOMAIN,gemini.google.com
+DOMAIN,makersuite.google.com
 DOMAIN,ai.google.dev
 DOMAIN,alkalimakersuite-pa.clients6.google.com
-DOMAIN,makersuite.google.com
+
+# 后缀匹配（包含所有子域名）
+DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,bard.google.com
-DOMAIN-SUFFIX,deepmind.com
 DOMAIN-SUFFIX,deepmind.google
-DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,one.google.com                  # 关键！包含所有付费、订阅、explore-plan 页面
 DOMAIN-SUFFIX,generativeai.google
-DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
-DOMAIN-SUFFIX,apis.google.com
-DOMAIN-KEYWORD,colab
-DOMAIN-KEYWORD,developerprofiles
-DOMAIN-KEYWORD,generativelanguage
-DOMAIN-SUFFIX,one.google.com
-
-# Google AI Gemini 规则 - 基于 ACL4SSR 风格
-# 参考：https://gemini.google.com
-# ACL4SSR 标志
-DOMAIN-SUFFIX,acl4.ssr
-
-# Gemini 主域名
-DOMAIN-SUFFIX,gemini.google.com
-DOMAIN,gemini.google.com
-
-# Google AI 相关子域名（API、静态资源等）
 DOMAIN-SUFFIX,ai.google.dev
-DOMAIN-SUFFIX,generativelanguage.googleapis.com  # Gemini API 端点
+
+# API 端点
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
 DOMAIN-SUFFIX,generativeai.googleapis.com
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+DOMAIN-KEYWORD,generativelanguage
+DOMAIN-KEYWORD,colab
+
+# 静态资源 & 图片
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,gstatic.com
 DOMAIN,firebaseai.google.com
 
-# Google 通用 AI 资源（扩展自 GoogleIP.list）
-DOMAIN-SUFFIX,googleusercontent.com  # 用于 Gemini 图像/模型资源
-DOMAIN-SUFFIX,gstatic.com  # Google 静态内容，可能包含 AI 资产
-
-# IP 规则（可选，针对 Google AI IP 段；需结合 GoogleIP.list）
-# IP-CIDR6,2607:f8b0:4000::/36,no-resolve  # 示例 Google IPv6
-
-# 结束标志
-# End of Gemini Rules
+# End of Google AI Gemini Rules - 完美版
