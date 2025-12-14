@@ -49,7 +49,7 @@ DOMAIN-SUFFIX,payments.google.com
 DOMAIN-SUFFIX,payments.googleapis.com
 DOMAIN-SUFFIX,subscription.google.com
 DOMAIN-SUFFIX,one.google.com/billing
-DOMAIN,play.google.com/store/account/subscriptions  # Android 订阅确认
+# DOMAIN,play.google.com/store/account/subscriptions  # Android 订阅确认
 
 # 【账户验证】登录/权限检查（升级需 Google 账户）
 DOMAIN-SUFFIX,accounts.google.com
@@ -74,4 +74,5 @@ DOMAIN-SUFFIX,mtalk.google.com  # FCM 推送确认
 # End of Gemini Upgrade Rules
 
 # End of Google AI Gemini Rules - 完美版
+
 
