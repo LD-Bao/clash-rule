@@ -1,9 +1,9 @@
 # 内容：OpenAi
 # 数量：17条
 DOMAIN-KEYWORD,openai
-DOMAIN,gemini.google.com
-DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-KEYWORD,gemini
+# DOMAIN,gemini.google.com
+# DOMAIN-SUFFIX,gemini.google.com
+# DOMAIN-KEYWORD,gemini
 DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,challenges.cloudflare.com
 DOMAIN-SUFFIX,chatgpt.com
@@ -21,3 +21,4 @@ DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,stripe.com
 DOMAIN-KEYWORD,sora
 DOMAIN-SUFFIX,sora.com
+
