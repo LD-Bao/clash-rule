@@ -60,7 +60,7 @@ DOMAIN-SUFFIX,google.com/accounts
 DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,apis.google.com
-DOMAIN-KEYWORD,colab  # 如果从 Colab 升级
+# DOMAIN-KEYWORD,colab  # 如果从 Colab 升级
 
 # 【扩展】DeepMind & 旧 Bard（备用跳转）
 DOMAIN-SUFFIX,deepmind.google
@@ -74,5 +74,6 @@ DOMAIN-SUFFIX,mtalk.google.com  # FCM 推送确认
 # End of Gemini Upgrade Rules
 
 # End of Google AI Gemini Rules - 完美版
+
 
 
