@@ -6,20 +6,20 @@
 # DOMAIN-KEYWORD: 3
 # DOMAIN-SUFFIX: 7
 # TOTAL: 13
-# DOMAIN,ai.google.dev
-# DOMAIN,alkalimakersuite-pa.clients6.google.com
-# DOMAIN,makersuite.google.com
-# DOMAIN-SUFFIX,bard.google.com
-# DOMAIN-SUFFIX,deepmind.com
-# DOMAIN-SUFFIX,deepmind.google
-# DOMAIN-SUFFIX,gemini.google.com
-# DOMAIN-SUFFIX,generativeai.google
-# DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
-# DOMAIN-SUFFIX,apis.google.com
-# DOMAIN-KEYWORD,colab
-# DOMAIN-KEYWORD,developerprofiles
-# DOMAIN-KEYWORD,generativelanguage
-# DOMAIN-SUFFIX,one.google.com
+DOMAIN,ai.google.dev
+DOMAIN,alkalimakersuite-pa.clients6.google.com
+DOMAIN,makersuite.google.com
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+DOMAIN-SUFFIX,apis.google.com
+DOMAIN-KEYWORD,colab
+DOMAIN-KEYWORD,developerprofiles
+DOMAIN-KEYWORD,generativelanguage
+DOMAIN-SUFFIX,one.google.com
 
 # NAME: Google AI Gemini Upgrade（Pro 会员专用）
 # AUTHOR: Grok 优化版
@@ -28,52 +28,53 @@
 # 说明：专捕获 Gemini Advanced 升级按钮跳转 + 支付流程，所有走 🤖Gemini 节点
 
 # 【精确路径匹配】升级按钮跳转页（含 UTM 参数）
-URL-REGEX,https?://one\.google\.com/explore-plan/gemini-advanced(\?.*?)?(?:&utm_source=gemini|&g1_landing_page=\d+)?
-URL-REGEX,https?://one\.google\.com/(?:upgrade|subscribe|billing)/gemini
+# URL-REGEX,https?://one\.google\.com/explore-plan/gemini-advanced(\?.*?)?(?:&utm_source=gemini|&g1_landing_page=\d+)?
+# URL-REGEX,https?://one\.google\.com/(?:upgrade|subscribe|billing)/gemini
 
 # 【核心域名】Gemini + One（覆盖按钮点击起点和着陆页）
-DOMAIN-SUFFIX,gemini.google.com
-DOMAIN,gemini.google.com
-DOMAIN-SUFFIX,one.google.com
-DOMAIN-SUFFIX,generativeai.google
+# DOMAIN-SUFFIX,gemini.google.com
+# DOMAIN,gemini.google.com
+# DOMAIN-SUFFIX,one.google.com
+# DOMAIN-SUFFIX,generativeai.google
 
 # 【API & 后端】升级验证 + Pro 模型调用
-DOMAIN-SUFFIX,generativelanguage.googleapis.com
-DOMAIN-SUFFIX,generativeai.googleapis.com
-DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
-DOMAIN-KEYWORD,generativelanguage
-DOMAIN-SUFFIX,ai.google.dev
+# DOMAIN-SUFFIX,generativelanguage.googleapis.com
+# DOMAIN-SUFFIX,generativeai.googleapis.com
+# DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+# DOMAIN-KEYWORD,generativelanguage
+# DOMAIN-SUFFIX,ai.google.dev
 
 # 【支付 & 订阅流程】Google One 支付页（关键！防止卡在 billing）
-DOMAIN-SUFFIX,payments.google.com
-DOMAIN-SUFFIX,payments.googleapis.com
-DOMAIN-SUFFIX,subscription.google.com
-DOMAIN-SUFFIX,one.google.com/billing
+# DOMAIN-SUFFIX,payments.google.com
+# DOMAIN-SUFFIX,payments.googleapis.com
+# DOMAIN-SUFFIX,subscription.google.com
+# DOMAIN-SUFFIX,one.google.com/billing
 # DOMAIN,play.google.com/store/account/subscriptions  # Android 订阅确认
 
 # 【账户验证】登录/权限检查（升级需 Google 账户）
-DOMAIN-SUFFIX,accounts.google.com
-DOMAIN-SUFFIX,account.google.com
-DOMAIN-SUFFIX,google.com/accounts
+# DOMAIN-SUFFIX,accounts.google.com
+# DOMAIN-SUFFIX,account.google.com
+# DOMAIN-SUFFIX,google.com/accounts
 
 # 【静态资源 & 图片】升级页加载（含 UTM 追踪资源）
-DOMAIN-SUFFIX,googleusercontent.com
-DOMAIN-SUFFIX,gstatic.com
-DOMAIN-SUFFIX,apis.google.com
+# DOMAIN-SUFFIX,googleusercontent.com
+# DOMAIN-SUFFIX,gstatic.com
+# DOMAIN-SUFFIX,apis.google.com
 # DOMAIN-KEYWORD,colab  # 如果从 Colab 升级
 
 # 【扩展】DeepMind & 旧 Bard（备用跳转）
-DOMAIN-SUFFIX,deepmind.google
-DOMAIN-SUFFIX,deepmind.com
-DOMAIN-SUFFIX,bard.google.com
+# DOMAIN-SUFFIX,deepmind.google
+# DOMAIN-SUFFIX,deepmind.com
+# DOMAIN-SUFFIX,bard.google.com
 
 # 【Firebase & 通知】升级后推送
-DOMAIN,firebaseai.google.com
-DOMAIN-SUFFIX,mtalk.google.com
+# DOMAIN,firebaseai.google.com
+# DOMAIN-SUFFIX,mtalk.google.com
 
 # End of Gemini Upgrade Rules
 
 # End of Google AI Gemini Rules - 完美版
+
 
 
 
