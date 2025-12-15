@@ -69,11 +69,12 @@ DOMAIN-SUFFIX,bard.google.com
 
 # 【Firebase & 通知】升级后推送
 DOMAIN,firebaseai.google.com
-DOMAIN-SUFFIX,mtalk.google.com  # FCM 推送确认
+DOMAIN-SUFFIX,mtalk.google.com
 
 # End of Gemini Upgrade Rules
 
 # End of Google AI Gemini Rules - 完美版
+
 
 
 
