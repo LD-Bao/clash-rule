@@ -1,0 +1,19 @@
+# Google Account / Auth
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,accounts.google.com
+DOMAIN-SUFFIX,myaccount.google.com
+DOMAIN-SUFFIX,oauth2.googleapis.com
+
+# Google APIs / Core Services
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,clients6.google.com
+DOMAIN-SUFFIX,clients4.google.com
+DOMAIN-SUFFIX,apis.google.com
+
+# Google Static / CDN
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,ssl.gstatic.com
+
+# Google Sync / Connectivity
+DOMAIN-SUFFIX,connectivitycheck.gstatic.com
+DOMAIN-SUFFIX,www.gstatic.com
