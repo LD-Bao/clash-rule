@@ -1,1 +1,23 @@
+# ==========================
+# Claude / Anthropic Rules
+# ==========================
 
+# 官方 API
+DOMAIN,api.anthropic.com
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN,console.anthropic.com
+
+# 静态资源 & CDN
+DOMAIN-SUFFIX,claude.ai
+DOMAIN,cdn.claude.ai
+
+# AWS Bedrock（Claude on AWS）
+DOMAIN-SUFFIX,bedrock-runtime.amazonaws.com
+DOMAIN-SUFFIX,bedrock.amazonaws.com
+
+# Anthropic 控制台相关
+DOMAIN-SUFFIX,anthropicusercontent.com
+
+# 未来扩展保留
+DOMAIN-KEYWORD,anthropic
+DOMAIN-KEYWORD,claude
