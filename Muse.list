@@ -1,9 +1,29 @@
 # ==========================
-# Muse.ai / Skiv Rules
+# Muse / Meta Personal AI Agent Rules
 # ==========================
 
-# Muse 原域名及其子域名
+# 官网、API、认证、VM、Gadgets 等子域名
 DOMAIN-SUFFIX,muse.ai
 
-# 更名后的 Skiv 域名及其子域名
-DOMAIN-SUFFIX,skiv.com
+# 官网公开代码中引用的服务入口
+DOMAIN,production.museai.com
+DOMAIN,agent.meta.ai
+DOMAIN,hatch.meta.ai
+DOMAIN,ecto1.meta.ai
+
+# Meta 认证及共享登录入口
+# 注意：访问这些相同主机的其他服务也会命中此规则集
+DOMAIN,auth.meta.com
+DOMAIN,www.meta.com
+DOMAIN,www.facebook.com
+DOMAIN,www.instagram.com
+DOMAIN,connect.facebook.net
+
+# 官网公开代码中引用的静态资源及 OHTTP 端点
+DOMAIN,nest-static.fbcdn.net
+DOMAIN,meta-ohttp-config-prod.fastly-edge.com
+DOMAIN,meta-ohttp-relay-prod.fastly-edge.com
+
+# 不收录旧视频平台 skiv.com、分析统计域名或共享 IP 网段
+# DNS 返回的 IPv4/IPv6 会变化且可能共享，不能作为 Muse 专用 IP 清单
+# 域名依据：muse.ai 官网公开页面及其 JavaScript；2026-10-08 核查
