@@ -1,0 +1,9 @@
+# ==========================
+# Muse.ai / Skiv Rules
+# ==========================
+
+# Muse 原域名及其子域名
+DOMAIN-SUFFIX,muse.ai
+
+# 更名后的 Skiv 域名及其子域名
+DOMAIN-SUFFIX,skiv.com
