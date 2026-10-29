@@ -1,0 +1,8 @@
+# ==========================
+# OpenRouter Rules
+# ==========================
+
+# 官网、通用 API 和区域 API 子域名
+# 包括 openrouter.ai、us.openrouter.ai、eu.openrouter.ai
+# OpenRouter 上的 Claude 等模型请求按实际 API 域名分流
+DOMAIN-SUFFIX,openrouter.ai
