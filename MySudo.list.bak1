@@ -1,3 +1,4 @@
 # MySudo 官网及其子域名
 # App 其他服务域名和专用 IP 尚待实际连接验证，暂不收录。
 DOMAIN-SUFFIX,mysudo.com
+DOMAIN,api.service.anonyome.com
