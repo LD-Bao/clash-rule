@@ -1,0 +1,15 @@
+# Google Antigravity 官网、OAuth 回调与远程控制
+DOMAIN-SUFFIX,antigravity.google
+DOMAIN-SUFFIX,antigravity.google.com
+
+# 功能配置和 App / CLI 更新
+DOMAIN,antigravity-unleash.goog
+DOMAIN,antigravity-cli-auto-updater-974169037036.us-central1.run.app
+DOMAIN,antigravity-hub-auto-updater-974169037036.us-central1.run.app
+
+# AI / Code Assist 接口；这些域名可能被其他 Google 开发工具共用
+DOMAIN,daily-cloudcode-pa.googleapis.com
+DOMAIN,cloudcode-pa.googleapis.com
+DOMAIN,aicode.googleapis.com
+
+# Google 登录和通用下载服务沿用现有分流；共享 IP 不收录。
